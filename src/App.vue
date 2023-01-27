@@ -1,12 +1,16 @@
 <script setup lang="ts">
-import Discussion from './components/Discussion/Discussion.vue';
+import Discussions from './components/Discussions/Discussions.vue';
 </script>
 
 <template>
-  <main>
-    <Discussion />
-  </main>
+	<main class="app">
+		<Discussions />
+	</main>
 </template>
 
 <style scoped lang="scss">
+	.discussion {
+		display: flex;
+		justify-content: center;
+	}
 </style>
